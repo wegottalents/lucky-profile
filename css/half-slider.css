@@ -5,11 +5,15 @@
  */
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.fadeCaption {
+  pointer-events:none;
+  opacity: 1;
+  transition: opacity 2000ms;
 }
