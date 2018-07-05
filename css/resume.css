@@ -130,6 +130,13 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
 .bg-primary {
   background-color: #dc3545 !important;
 }
