@@ -178,10 +178,9 @@
             <div id="stemVideoIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#stemVideoIndicators" data-slide-to="0" class="active"></li>
-
+                <li data-target="#stemVideoIndicators" data-slide-to="1"></li>
               </ol>
               <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active">
                   <video width="100%" controls onloadstart="this.volume=0.3" poster="../assets/img/video_01.png" id="video_01">
                     <source src="../assets/video/video_01.m4v" type="video/mp4" /> Your browser does not support the video tag.
@@ -190,7 +189,14 @@
                     <p>This is a walking robot I made for the school STEM project.</p>
                   </div>
                 </div>
-
+                <div class="carousel-item">
+                  <video width="100%" controls onloadstart="this.volume=0.8" poster="../assets/img/ev3_controlled_clock.png" id="LEGO_EV3_controlled_clock">
+                    <source src="../assets/video/LEGO_EV3_controlled_clock.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                  </video>
+                  <div class="carousel-caption d-block" id="LEGO_EV3_controlled_clock_caption">
+                    <p>This is a LEGO EV3 controlled clock</p>
+                  </div>
+                </div>
               </div>
               <a class="carousel-control-prev" href="#stemVideoIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
