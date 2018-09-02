@@ -33,5 +33,8 @@ section.resume-section {
   background-color: rgba($color: #000000, $alpha: 0.6);
   left: 0;
   right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom: 10px;
   pointer-events: none;
 }
