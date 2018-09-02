@@ -27,7 +27,7 @@
 
 })(jQuery); // End of use strict
 
-["video_01", "video_02", "video_03", "video_04","LEGO_EV3_controlled_clock"]
+["video_01", "video_02", "video_03", "video_04", "swim_freestyle", "swim_breaststroke", "LEGO_EV3_controlled_clock"]
 .forEach(function (id) {
   $("#" + id).bind("play", function () {
     console.log("begin playing " + id);
