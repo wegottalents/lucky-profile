@@ -46,3 +46,7 @@
     });
   });
 });
+
+$('.eaddr').click(function(){
+  window.location.href='\u004dailto\u003a'+'less\u002ejiang'+'\u0040'+163+'\u002ecom';
+});
