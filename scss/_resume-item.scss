@@ -30,11 +30,15 @@ section.resume-section {
 }
 
 .carousel-caption {
-  background-color: rgba($color: #000000, $alpha: 0.6);
+  background-color: rgba($color: #000000, $alpha: 0.5);
   left: 0;
   right: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  bottom: 1px;
   pointer-events: none;
+  font-size: 11px;
+}
+.carousel-indicators{
+  margin-bottom: 1px;
 }
