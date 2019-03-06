@@ -139,10 +139,16 @@ section.resume-section .resume-item .resume-date {
   bottom: 1px;
   pointer-events: none;
   font-size: 11px;
+  pointer-events: none;
 }
 
 .carousel-indicators {
   margin-bottom: 1px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  bottom: 100px;
+  top: 100px;
 }
 
 .bg-primary {
